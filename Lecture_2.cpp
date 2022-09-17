@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
 
-    for(int i = 0 : i <= 100 : i++)
+    for(int i = 0 ; i <= 100 ; i++)
         if(i % 3 == 0) cout<<i<<"    ";
     
     cout<<endl;
@@ -14,7 +14,7 @@ int main(){
         n += 4;
     }
     
-    cout<<n<<endl;
+    cout<<s<<endl;
     
     return 0;
 

@@ -7,10 +7,14 @@ int main () {
 	int t; cin>>t;
 	
 	while(t--){
-		string msg; cin>>msg;
-		for(int i = 0; i < strlen(msg.c_str()); i++) msg[i] += 1;
-		cout<<msg;
-	}
-	
+		char str[51]; cin>>str;
+		char *s; s = str;
+		for(int i = 0; i < strlen(str); i++) {
+			//*(s + i) += 1;
+			//cout<<*(s + i);
+			cout<<char (*(s + i) + 1);
+		}
+		cout<<"\n";
+	}	
   	return 0;
 }
